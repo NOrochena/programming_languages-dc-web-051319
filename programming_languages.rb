@@ -39,6 +39,7 @@ def reformat_languages(styles)
     languages.each do |language, type|
       new_hash[language] = {:type => type[:type]}
       if new_hash[language].key?(:style)
+        puts "test"
         new_hash[language][:style].push(style)
       else
         new_hash[language][:style] = [style]
