@@ -47,9 +47,7 @@ def reformat_languages(styles)
       new_hash[language][:style].push(style)
     end
   end
-  
- puts new_hash
- new_hash
+  new_hash
 end
 
 reformat_languages(languages)
