@@ -42,7 +42,7 @@ def reformat_languages(styles)
         puts "test"
         new_hash[language][:style].push(style)
       else
-        puts "false"
+        puts new_hash[language]
         new_hash[language][:style] = [style]
       end
       #new_hash[language][:style] = []
