@@ -50,4 +50,4 @@ def reformat_languages(styles)
   new_hash
 end
 
-reformat_languages(languages)
+puts reformat_languages(languages)
